@@ -1,7 +1,5 @@
 const User = require('../models/user');
 
-git config --global user.email "rishpalthind@gmail.com"
-git config --global user.name "Rishpal singh"
 async function createUser(req, res){
     
     try {
