@@ -1,3 +1,3 @@
-module.exports = {
-    userMiddleware: require('./user-middleware')
-}
+import * as userMiddleware from './user-middleware.js';
+
+export { userMiddleware };
